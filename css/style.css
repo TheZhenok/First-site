@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trispace', sans-serif;
+}
+header{
+    margin-top: 60px;
+    height: 60px;
+}
+header .top{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top .logo{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+header nav ul{
+    display: flex;
+    gap: 1vw;
+}
+li a{
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 500;
+}
+li{
+    list-style-type: none;
+}
+nav li a:hover{
+    color: yellow;
+}
+.phone__icon{
+    height: 14px;
+    width: 14px;
+    background-image: url('../img/phone.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.phone__number{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.menu__content{
+    height: 60px;
+    width: 60px;
+    background-image: url('../img/9034957_menu_icon.png');
+    background-size: 100% 100%;
+}
+.menu__content ul{
+    box-shadow: 0 0 15px black;
+    margin-top: 60px;
+    background-color: rgba(180, 180, 180, 0.584);
+    width: 200px;
+    right: 30px;
+    height: 450px;
+    transition: all 0.3s;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+}
+.menu__content:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+header .headline{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.headline .content{
+    width: 100%;
+    height: 55vh;
+    background-image: url('../img/headline.jpg');
+    background-size: 100% 100%;
+}
+.content .back__color{
+    width: 100%;
+    height: 55vh;
+    background-color: rgba(0, 132, 255, 0.215);
+}
+.contact__us{
+    color: rgba(255, 28, 28, 0.768);
+    font-size: 4em;
+    font-weight: bold;
+    opacity: 1;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 100px;
+}
+.information{
+    color: rgba(255, 255, 255, 0.768);
+    font-size: 1.5em;
+    font-weight: 200;
+    opacity: 1;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 100px;
+    letter-spacing: 5px;
+}
+.menu__content ul li{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    transition: all 0.2s;
+}
+.menu__content ul li:hover{
+    background-color: rgba(0, 0, 0, 0.519);
+    color: white;
+}
